@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:#202124;
+
+    margin: 0;
+}
+main{
+    /* background: rgb(38, 38, 38); */
+    color: #fff;
+}
+input{
+    border: none;
+}
+.search{
+    border: 1px solid rgb(252, 250, 250);
+    display: flex;
+    justify-content: space-between;
+    /* width: 70vw; */
+    padding:  0.7em 0.5em;
+    width: 100%;
+    border-radius: 2em;
+    margin: 1em;
+}
+.search >  input{
+    width: 75%;
+    background: none;
+}
+input:hover{
+background-color: gray;
+}
+.offers > p > a{
+   margin: 0 .3em;
+   color: #8ab4f8;
+   text-decoration: none;
+}
+section{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+section > div{
+    display: flex;
+}
+.search > div{
+    display: flex;
+ 
+    justify-content: space-between;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+.google > img{
+    width: 50%;
+    
+}
+button{
+    padding: 0.7em 1em ;
+    border-radius: 5px;
+    margin: .5em;
+    background-color: rgb(54, 54, 54);
+    border: none;
+    color: white;
+    
+}
+.microphone-icon ,.search-icon{
+    width: 35px;
+}
+
+main{
+    display: flex;
+height: 60vh;
+   
+    justify-content: center;
+}
